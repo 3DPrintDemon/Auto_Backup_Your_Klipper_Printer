@@ -91,3 +91,7 @@ Then paste in this save & exit. Reboot.
 ```
 0 * * * * /usr/bin/bash /home/pi/printer_data/config/autocommit.sh >/dev/null 2>&1
 ```
+
+Be warned this is fairly technical & requires some knowledge to do, please be careful. Any mistakes resulting in damage to the system because you did something is bad & totally on you!
+
+
