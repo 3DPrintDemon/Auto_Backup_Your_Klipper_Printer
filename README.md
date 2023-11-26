@@ -2,12 +2,13 @@
 ## Backups with a single click and automatically on the hour every hour!
 
 
-Follow this guide for the best instructions, warning this is not for beginners or the faint of heart! You will be giving commands directly to your Pi via terminal!
+Follow this guide for the best instructions, warning this is not for beginners or the faint of heart! You will be giving commands directly to your Pi via SSH terminal!
 Huge thanks for the Voron team for sharing the guide below!
 
 https://docs.vorondesign.com/community/howto/EricZimmerman/BackupConfigToGithub.html
 
-BUT FIRST!!! Make sure your Pi has the correct timezone/time & date! Google should help you do this.
+## BUT FIRST!!! Make sure your Pi has the correct timezone/time & date! Google should help you do this.
+# ALSO manually select all your files in Mainsail & download them to your computer so you have a current & local backup of your configs BEFORE YOU DO ANYHTING ELSE!
 
 
 If you do all the setup & go for your fist autocommit but get “Updates were rejected because the tip of your current branch is behind” error. 
