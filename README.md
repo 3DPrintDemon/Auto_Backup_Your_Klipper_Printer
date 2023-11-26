@@ -9,13 +9,20 @@ This is not for beginners or the faint of heart! You will be giving commands dir
 Huge thanks for the Voron team for sharing the guide below!
 
 https://docs.vorondesign.com/community/howto/EricZimmerman/BackupConfigToGithub.html
-
+**************************************************************************************************************
 ## BUT FIRST!!! Make sure your Pi has the correct timezone/time & date! Google should help you do this.
+
 # ALSO manually select all your files in Mainsail & download them to your computer so you have a current & local backup of your configs BEFORE YOU DO ANYTHING ELSE!
 
 To log into ssh on a SV06/+ or SV07/+ Klipper screen the default user is mks & password is makerbase. 
 
+**************************************************************************************************************
 ### ...Oh, & whatever you do DO NOT, I repeat, DO NOT run any update commands via ssh on the SV06/+ or SV07/+ Klipper screens! You have been warned. 
+**************************************************************************************************************
+
+
+
+### While the linked guide is fantastic recent changes on Github seem to throw us a couple of possible errors....
 
 ## Possible Error #1
 If you do all the setup & go for your first autocommit but get “Updates were rejected because the tip of your current branch is behind” error. 
@@ -38,6 +45,7 @@ In Push config section at the very bottom replace the last line where it says `g
 ```
 git push origin HEAD:main
 ```
+**************************************************************************************************************
 ## Helpful Commands
 Use this to reset/change Git Repo for backups if you made a mistake or need to change repo. In the link below you must edit it to contain your correct/new access token & correct/new git url as it mentions in the linked guide:
 ```
@@ -54,7 +62,7 @@ Edited commands for Sovol SV07/+ & SV06/+ Klipper Screens the ones in the guide 
 ```
  wget -O /home/mks/klipper/klippy/extras/gcode_shell_command.py https://raw.githubusercontent.com/th33xitus/kiauh/master/resources/gcode_shell_command.py
 ```
-
+**************************************************************************************************************
 ## RPi Edited Macro
 Edited config_backup.cfg for RPi based systems. Instead of using the macro in the guide use this, better backup name:
 ```
@@ -70,7 +78,7 @@ gcode:
 ```
 
 
-
+**************************************************************************************************************
 ## Sovol Klipper screen Macro
 Edited config_backup.cfg for Sovol SV07/+ & SV06/+ Klipper Screens. Instead of using the macro in the guide use this, as it wont work plus better backup name:
 ```
@@ -84,7 +92,7 @@ description: Backs up config directory GitHub
 gcode:
      RUN_SHELL_COMMAND CMD=backup_printer
 ```
-
+**************************************************************************************************************
 
 
 
@@ -103,7 +111,7 @@ This version for the SV06/+ SV07/+ with Sovol Klipper screens
 0 * * * * /usr/bin/bash /home/mks/printer_data/config/autocommit.sh >/dev/null 2>&1
 ```
 Now save & exit. Reboot.
-
+**************************************************************************************************************
 
 ### Be warned this is fairly technical & requires some knowledge to do, please be careful. Any mistakes resulting in damage to the system because you did something is bad & totally on you!
 
