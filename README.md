@@ -27,6 +27,7 @@ git branch -m main
 git push origin HEAD:main
 sh autocommit.sh
 ```
+be sure to add your token & url in the above command!
 
 use this to reset/change Git Repo for backups if you made a mistake or need to change repo. In the link below you must edit it to contain your correct/new access token & correct/new git url as it mentions in the linked guide:
 ```
