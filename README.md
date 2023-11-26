@@ -1,8 +1,11 @@
-# Auto_Git_Backup_Your_Klipper_Printer-
+# Auto_Git_Backup_Your_Klipper_Printer
 ## Backups with a single click and automatically on the hour every hour!
 
 
-Follow this guide for the best instructions, warning this is not for beginners or the faint of heart! You will be giving commands directly to your Pi via SSH terminal!
+Follow the guide in the link below for the best instructions. 
+
+### WARNING: 
+This is not for beginners or the faint of heart! You will be giving commands directly to your Pi via SSH terminal & creating your own access tokens & filling important infomation that has to be correct for any of this to work.  
 Huge thanks for the Voron team for sharing the guide below!
 
 https://docs.vorondesign.com/community/howto/EricZimmerman/BackupConfigToGithub.html
