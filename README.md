@@ -13,6 +13,7 @@ https://docs.vorondesign.com/community/howto/EricZimmerman/BackupConfigToGithub.
 ## BUT FIRST!!! Make sure your Pi has the correct timezone/time & date! Google should help you do this.
 # ALSO manually select all your files in Mainsail & download them to your computer so you have a current & local backup of your configs BEFORE YOU DO ANYHTING ELSE!
 
+To log into ssh on a SV06/+ or SV07/+ Klipper screen the default user is mks & password is makerbase. 
 
 If you do all the setup & go for your first autocommit but get “Updates were rejected because the tip of your current branch is behind” error. 
 To get it working in MAIN branch after setup steps but before first `sh autocommit.sh` do this:
@@ -25,7 +26,7 @@ git push origin HEAD:main
 sh autocommit.sh
 ```
 
-Reset Git Repo for backups if you made a mistake or need to change repo. in the lonk below you must edit it to contain your correct/new access token & correct/new git url:
+use this to reset/change Git Repo for backups if you made a mistake or need to change repo. In the link below you must edit it to contain your correct/new access token & correct/new git url as it mentions in the linked guide:
 ```
 git remote set-url origin https://<YOUR_NEW_TOKEN>@<YOUR_NEW_GIT_URL>
 ```
@@ -33,7 +34,7 @@ git remote set-url origin https://<YOUR_NEW_TOKEN>@<YOUR_NEW_GIT_URL>
 
 If you get “error: failed to push some refs to 'https://…….” on your first autocommit edit the `Autocommit.sh` file:
 
-In Push config section at the very bottom replace the last line where it say `git push origin $branch` with 
+In Push config section at the very bottom replace the last line where it says `git push origin $branch` with 
 ```
 git push origin HEAD:main
 ```
