@@ -90,10 +90,15 @@ Shell command for running auto backups hourly on the hour:
 ```
 crontab -e
 ```
-Then paste in this save & exit. Reboot.
+Then for RPi systems paste this in at the bottom of the new file:
 ```
 0 * * * * /usr/bin/bash /home/pi/printer_data/config/autocommit.sh >/dev/null 2>&1
 ```
+This version for the SV06/+ SV07/+
+```
+0 * * * * /usr/bin/bash /home/mks/printer_data/config/autocommit.sh >/dev/null 2>&1
+```
+Now save & exit. Reboot.
 
 Be warned this is fairly technical & requires some knowledge to do, please be careful. Any mistakes resulting in damage to the system because you did something is bad & totally on you!
 
