@@ -15,6 +15,8 @@ https://docs.vorondesign.com/community/howto/EricZimmerman/BackupConfigToGithub.
 
 To log into ssh on a SV06/+ or SV07/+ Klipper screen the default user is mks & password is makerbase. 
 
+### ...Oh, & whatever you do DO NOT, I repeat, DO NOT run any update commands via ssh on the SV06/+ or SV07/+ Klipper screens! You have been warned. 
+
 If you do all the setup & go for your first autocommit but get “Updates were rejected because the tip of your current branch is behind” error. 
 To get it working in MAIN branch after setup steps but before first `sh autocommit.sh` do this:
 
