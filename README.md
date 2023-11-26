@@ -11,7 +11,7 @@ Huge thanks for the Voron team for sharing the guide below!
 https://docs.vorondesign.com/community/howto/EricZimmerman/BackupConfigToGithub.html
 
 ## BUT FIRST!!! Make sure your Pi has the correct timezone/time & date! Google should help you do this.
-# ALSO manually select all your files in Mainsail & download them to your computer so you have a current & local backup of your configs BEFORE YOU DO ANYHTING ELSE!
+# ALSO manually select all your files in Mainsail & download them to your computer so you have a current & local backup of your configs BEFORE YOU DO ANYTHING ELSE!
 
 To log into ssh on a SV06/+ or SV07/+ Klipper screen the default user is mks & password is makerbase. 
 
