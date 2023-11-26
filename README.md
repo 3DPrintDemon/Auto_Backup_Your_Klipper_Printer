@@ -25,7 +25,7 @@ git push origin HEAD:main
 sh autocommit.sh
 ```
 
-Reset Git Repo for backups if you made a mistake or need to change repo:
+Reset Git Repo for backups if you made a mistake or need to change repo. in the lonk below you must edit it to contain your correct/new access token & correct/new git url:
 ```
 git remote set-url origin https://<YOUR_NEW_TOKEN>@<YOUR_NEW_GIT_URL>
 ```
