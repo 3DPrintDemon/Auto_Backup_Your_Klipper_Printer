@@ -1,4 +1,4 @@
-# Auto_Git_Backup_Your_Klipper_Printer
+# Auto_Backup_Your_Klipper_Printer
 ## Backups with a single click and automatically on the hour every hour!
 
 
