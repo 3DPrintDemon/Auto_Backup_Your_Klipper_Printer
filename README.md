@@ -47,7 +47,7 @@ git push origin HEAD:main
 Edited config_backup.cfg for RPi based systems. Instead of using the macro in the guide use this, better backup name:
 ```
 [gcode_shell_command backup_printer]
-command: /usr/bin/bash /home/mks/printer_data/config/autocommit.sh
+command: /usr/bin/bash /home/pi/printer_data/config/autocommit.sh
 timeout: 30
 verbose: True
 
