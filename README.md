@@ -115,10 +115,11 @@ Now save & exit. Reboot.
 
 ### Be warned this is fairly technical & requires some knowledge to do, please be careful. Any mistakes resulting in damage to the system because you did something is bad & totally on you!
 
-## TO REMOVE THIS FEATURE! 
+# TO REMOVE THIS FEATURE! 
 
 This will remove the remote linked repo folder on your pi. Note change `pi` to `mks` for SV06/+/07/+ machines.
-BE VERY CAREFUL WITH THESE COMMANDS!! GET IT WRONG YOU CAN WIPE EVERYTHING!
+
+## BE VERY CAREFUL WITH THESE COMMANDS!! GET IT WRONG YOU CAN WIPE EVERYTHING!
 
 ```
 cd /home/pi/
