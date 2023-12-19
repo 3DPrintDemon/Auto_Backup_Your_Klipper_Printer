@@ -160,7 +160,7 @@ Then finally delete the `autocommit.sh` file & the `config_backup.cfg` file on y
 Your backup repo will still be stored on Github until you delete it.
 
 # IF SELLING YOUR PRINTER 
-If you're selling your machine & you done want anyone possibly finding out what you typed in ssh like login info or email addresses it might be a good idea to do this.
+If you're selling your machine & you don't want anyone possibly finding out what you typed in ssh like login info or email addresses it might be a good idea to do this.
 The commands below will clear the ssh history file & the write the current history to file then delete that file.
 ```
 history -c && history -w
