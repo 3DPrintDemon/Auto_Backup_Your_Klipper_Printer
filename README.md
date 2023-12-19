@@ -158,3 +158,14 @@ Now got to github & navigate to your settings for the access tokens & revoke the
 Then finally delete the `autocommit.sh` file & the `config_backup.cfg` file on your printer, dont forget to remove the `[include config_backup.cfg]` line in your `printer.cfg` also.
 
 Your backup repo will still be stored on Github until you delete it.
+
+# IF SELLING YOUR PRINTER 
+If you're selling your machine & you done want anyone possibly finding out what you typed in ssh like login info or email addresses it might be a good idea to do this.
+The commands below will clear the ssh history file & the write the current history to file then delete that file.
+```
+history -c && history -w
+```
+then type...
+```
+rm ~/.bash_history
+```
