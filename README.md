@@ -155,6 +155,6 @@ crontab -e
 
 Now got to github & navigate to your settings for the access tokens & revoke the token for your machine.
 
-Then finally delete the `autocomit.sh` file & the `config_backup.cfg` file on your printer.
+Then finally delete the `autocommit.sh` file & the `config_backup.cfg` file on your printer.
 
 Your backup repo will still be stored on Github until you delete it.
