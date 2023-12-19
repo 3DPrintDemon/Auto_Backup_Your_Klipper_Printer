@@ -140,7 +140,7 @@ If you wish to remove git entirly afterwards
 sudo apt-get remove git
 ```
 
-Or there is this combined purge then remvove command
+Or there is this combined purge then remove command
 ```
 sudo apt-get purge --auto-remove git
 ```
