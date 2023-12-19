@@ -115,4 +115,34 @@ Now save & exit. Reboot.
 
 ### Be warned this is fairly technical & requires some knowledge to do, please be careful. Any mistakes resulting in damage to the system because you did something is bad & totally on you!
 
+## TO REMOVE THIS FEATURE! 
 
+This will remove the remote linked repo folder on your pi. Note change `pi` to `mks` for SV06/+/07/+ machines.
+
+```
+cd /home/pi/
+rm -r .git
+```
+
+This will purge all config data from git.
+```
+sudo apt-get purge git
+```
+If you wish to remove git entirly afterwards
+```
+sudo apt-get remove git
+```
+
+Now type... 
+
+``` 
+crontab -e
+```
+
+...& delete the last line of the file you originally entered. Save & exit
+
+Now got to github & navigate to your settings for the access tokens & revoke the token for your machine.
+
+Then finally delete the `autocomit.sh` file & the `config_backup.cfg` file on your printer.
+
+Your backup repo will still be stored on Github until you delete it.
