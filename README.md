@@ -123,8 +123,13 @@ This will remove the remote linked repo folder on your pi. Note change `pi` to `
 cd /home/pi/
 rm -r .git
 ```
+or if you prefer...
 
-This will purge all config data from git.
+```
+rm -r /home/pi/.git
+```
+
+Then this will purge all config data from git.
 ```
 sudo apt-get purge git
 ```
