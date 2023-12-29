@@ -1,3 +1,5 @@
+[<img width="171" alt="kofi_s_tag_dark" src="https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials/assets/122202359/6538fcbf-b866-4e33-81c6-f9c95428bca4">](https://ko-fi.com/3dprintdemon)
+
 # Auto_Backup_Your_Klipper_Printer
 ## Backups with a single click and automatically on the hour every hour!
 
@@ -169,3 +171,5 @@ then type...
 ```
 rm ~/.bash_history
 ```
+
+[<img width="171" alt="kofi_s_tag_dark" src="https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials/assets/122202359/6538fcbf-b866-4e33-81c6-f9c95428bca4">](https://ko-fi.com/3dprintdemon)
