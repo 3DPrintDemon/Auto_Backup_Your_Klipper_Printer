@@ -96,7 +96,20 @@ gcode:
 ```
 **************************************************************************************************************
 
+## Sovol SV08 Macro
+Edited config_backup.cfg for Sovol SV08. Instead of using the macro in the guide use this, as it wont work plus better backup name:
+```
+[gcode_shell_command backup_printer]
+command: /usr/bin/bash /home/sovol/printer_data/config/autocommit.sh
+timeout: 30
+verbose: True
 
+[gcode_macro BACKUP_PRINTER]
+description: Backs up config directory GitHub
+gcode:
+     RUN_SHELL_COMMAND CMD=backup_printer
+```
+**************************************************************************************************************
 
 ## Shell command for running auto backups hourly on the hour:
 
