@@ -125,6 +125,10 @@ This version for the SV06/+ SV07/+ with Sovol Klipper screens
 ```
 0 * * * * /usr/bin/bash /home/mks/printer_data/config/autocommit.sh >/dev/null 2>&1
 ```
+This version for the SV08
+```
+0 * * * * /usr/bin/bash /home/sovol/printer_data/config/autocommit.sh >/dev/null 2>&1
+```
 Now save & exit. Reboot.
 **************************************************************************************************************
 
